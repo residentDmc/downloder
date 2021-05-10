@@ -94,8 +94,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initDownload(fileDownload: FileDownload) {
-        //val fileName=fileDownload.title+".mp4" //error api 30
-        val fileName="A does.mp4"  //success api 30
+        val fileName=fileDownload.title+".mp4" //error api 30
+        //val fileName="A does.mp4"  //success api 30
         downloadId = PRDownloader.download(fileDownload.url, getDirPath(), fileName)
                 .build()
                 .setOnProgressListener { initOnProgress(it) }
