@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="line_spacing_extra_5">5sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="margin_330">330dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+</resources>
